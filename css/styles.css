@@ -166,7 +166,7 @@ ul {
   padding: 0;
 }
 
-.link:hover {
+.contacts:hover{
   color: var(--logo-text);
 }
 
@@ -179,10 +179,11 @@ ul {
   color: var(--link-text);
 }
 
-.list-icon{
-  margin-right: 10px;
-   
+.list-mail{
+  margin-right: 10px; 
+  color: var(--logo-text); 
 }
+
 
 .link-tel {
   font-weight: 500;
@@ -190,6 +191,10 @@ ul {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--link-text);
+}
+
+.list-tel{
+  margin-right: 10px; 
 }
 
 .icon-port {
