@@ -273,9 +273,14 @@ ul {
   width: 270px;
 }
 
-/* .specialty-item:last-child {
-  margin-right: 0;
-} */
+.specialty-item::before{
+  display: block;
+  content: "";
+  height: 70px;
+  outline: 1px solid red;
+}
+
+ 
 
 .subject {
   font-weight: 700;
