@@ -498,8 +498,11 @@ ul {
   padding: 60px 0;
   background: var(--main-color);
   
+}
+
+.container-footer{
   display: flex;
-  align-items: baseline;
+  gap: 70px;
 }
 
 .loggo {
@@ -563,4 +566,29 @@ ul {
   font-style: normal;
 }
  
+.footer-title{
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-text);
+}
+
+.social-link-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--color-text);
+}
+
+.social-link-footer:hover{
+  color: var(--color-text);
+  background-color: var(--logo-text);
+}
  
